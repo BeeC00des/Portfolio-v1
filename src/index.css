@@ -25,7 +25,6 @@ body {
   height: 400px;
   display: flex;
   margin: 0px 35px;
-  border:1px solid red;
 }
 
 .cardContent{
@@ -48,6 +47,7 @@ body {
   /* border:1px solid red; */
 }
 
+
 .section2{
   width:60%;
   display: flex;
@@ -67,6 +67,7 @@ body {
   font-weight: 300;
 }
 
+
 .text{
   font-weight: 300;
 }
@@ -83,10 +84,18 @@ body {
 }
 
 .card{
-  width:30%;
-  height:100px;
+  width:60%;
+  height:80px;
   border-radius:7px;
   border:1px solid red;
+
+}
+
+.skillNav{
+  display:flex;
+  /* border:1px solid red; */
+  justify-content: left;
+  margin-bottom:20px;
 }
 
 .color{

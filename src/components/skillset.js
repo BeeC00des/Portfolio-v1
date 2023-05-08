@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types'
 import Card from './Card'
+import Navbar from './Nav'
 
 const Skill= ({ mainText, onClick }) => {
   return (
@@ -11,8 +12,14 @@ const Skill= ({ mainText, onClick }) => {
             </div>
         </div>
 
-        <div class="section3">
-           <Card/>
+        <div class="">
+            <div class="skillNav">
+                <Navbar navItem="Frontend Project" />
+                <Navbar navItem="Technical Writing" />
+            </div>
+            <div className="section3">
+                <Card/>
+            </div>
         </div> 
     </div>
    
