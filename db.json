@@ -1,0 +1,88 @@
+{
+  "skill": [
+    {
+      "id": 1,
+      "name": "React js",
+      "img": "10000"
+    },
+    {
+      "id": 2,
+      "name": "Vuejs",
+      "img": "5000"
+    },
+    {
+      "id": 3,
+      "name": "Angular js",
+      "img": "5000"
+    },
+    {
+      "id": 4,
+      "name": "Firebase",
+      "img": "5000"
+    },
+    {
+      "id": 5,
+      "name": "Solidity",
+      "img": "5000"
+    },
+    {
+      "id": 6,
+      "name": "Html $ CSS",
+      "img": "5000"
+    }
+  ],
+  "Project": [
+    {
+      "id": 1,
+      "projectType": "Cardio",
+      "technologies": "vuejs, firebase, materialize"
+    },
+    {
+      "id": 2,
+      "projectType": "Cardio",
+      "technologies": "vuejs, firebase, materialize"
+    },
+    {
+      "id": 3,
+      "projectType": "Cardio",
+      "technologies": "vuejs, firebase, materialize"
+    },
+    {
+      "id": 4,
+      "projectType": "Cardio",
+      "technologies": "vuejs, firebase, materialize"
+    },
+    {
+      "id": 4,
+      "projectType": "Elearning platform",
+      "technologies": "vuejs, firebase, materialize"
+    },
+    {
+      "id": 5,
+      "projectType": "Cardio",
+      "technologies": "Angular js, firebase, materialize"
+    },
+    {
+      "id": 6,
+      "projectType": "Ecommerce",
+      "technologies": "Reactjs, firebase, materialize"
+    }
+  ],
+  "Social":[
+    {
+      "id": 1,
+      "url": "base up"
+    },
+    {
+      "id": 2,
+      "url": "Do Hard things"
+    },
+    {
+      "id": 3,
+      "url": "wise up"
+    }
+
+  ]
+
+
+}

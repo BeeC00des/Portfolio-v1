@@ -8,6 +8,7 @@ import Header from './components/Header';
 import Button from './components/Button';
 import Footer from './components/Footer';
 import About from './components/About';
+import Skill from './components/skillset'
 
 function App() {
   return (
@@ -34,6 +35,8 @@ function App() {
       I'm passionate about innovating software solutions and impacting my community. 
       I have three years experience working and volunteering 
       for organizations. Check my Works" />
+
+      <Skill mainText="Skill"/>
 
       <Footer footerItem="Designed & developed by Beec00des"/>
       <div class="footerList">
