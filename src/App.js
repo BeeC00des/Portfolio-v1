@@ -1,26 +1,48 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import footer from '../src/components/footer';
-import header from '../src/components/header';
+
+// Route, Routes
+// import Footer from './components/Footer';
+import { BrowserRouter as Router } from 'react-router-dom'
+import Header from './components/Header';
+import Button from './components/Button';
+import Footer from './components/Footer';
+import About from './components/About';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className='main'>
+      <Button
+        color="green"
+        text="Say Hello!"
+        className="bgBtn"
+      />
+      </div>
+       
+      <Header title="BeeC00des"/>
+      <About  
+      mainText="Hello!"  
+      subText="I'm Bolarinwa Ajayi"
+
+      text1="A creative 
+      Software Developer skilled at frontend engineering  for webs service 
+      crafting responsive and beautiful user interface 
+      embedded with great functionalities and interact with web servers." 
+
+      text2="
+      I'm passionate about innovating software solutions and impacting my community. 
+      I have three years experience working and volunteering 
+      for organizations. Check my Works" />
+
+      <Footer footerItem="Designed & developed by Beec00des"/>
+      <div class="footerList">
+        <Footer footerItem="Reactjs" />
+        <Footer footerItem="Github"/>
+        <Footer footerItem="Git"/>
+        <Footer footerItem="Netlify"/>
+      </div>
+    </Router>
   );
 }
 
