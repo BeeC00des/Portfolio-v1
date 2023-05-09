@@ -5,7 +5,9 @@ const Card = ({ text, subtext, link }) => {
     <div className="card">
       <div className="cardContent">
         <img alt="toolLogo"/>
-        <p className='aboutText'>{text}</p>
+        <p className='aboutText'>
+          {text}
+        </p>
       </div> 
   </div>
   )

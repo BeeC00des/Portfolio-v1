@@ -3,7 +3,7 @@ import Button from "./Button"
 
 const Card = ({ text, year,title,link }) => {
   return (
-    <div className="card">
+    <div className="card2">
       <div className="cardContent">
         <span>{year}</span>
         <p className='cardTitle'>{title}</p>

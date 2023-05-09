@@ -8,7 +8,9 @@ import Header from './components/Header';
 import Button from './components/Button';
 import Footer from './components/Footer';
 import About from './components/About';
-import Skill from './components/skillset'
+import Skill from './components/skillset';
+import Project from './components/project';
+import Story from './components/story';
 
 function App() {
   return (
@@ -37,6 +39,13 @@ function App() {
       for organizations. Check my Works" />
 
       <Skill mainText="Skill"/>
+      <Project mainText="Project" />
+
+      <Story mainText="Experiences"/>
+
+      <About  
+      mainText="Get In Touch"  
+      subText= "I'm Avaliable for collaboration" />
 
       <Footer footerItem="Designed & developed by Beec00des"/>
       <div class="footerList">

@@ -12,13 +12,28 @@ const Skill= ({ mainText, onClick }) => {
             </div>
         </div>
 
-        <div class="">
+        <div class="section4">
             <div class="skillNav">
-                <Navbar navItem="Frontend Project" />
-                <Navbar navItem="Technical Writing" />
+                <Navbar navItem="Technical Skills" />
+                <Navbar navItem="Soft Skills" />
             </div>
-            <div className="section3">
+            <div className="cardSection">
+              <div class="layer">
                 <Card/>
+                <Card/>
+                <Card/>
+              </div>
+              <div class="layer">
+                <Card/>
+                <Card/>
+                <Card/>
+              </div>
+              <div class="layer">
+                <Card/>
+                <Card/>
+                <Card/>
+              </div>
+                
             </div>
         </div> 
     </div>

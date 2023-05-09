@@ -1,24 +1,23 @@
 import PropTypes from 'prop-types'
+import Card from './Card'
+import Navbar from './Nav'
 
-const About= ({ mainText, subText, text1, text2, img, onClick }) => {
+const Story= ({ mainText, storyText }) => {
   return (
     <>
     <div className='mainSection'>
         <div class="section1">
             <div class="section">
                 <h1 className="text">{mainText}</h1>
-                <p>{subText}</p>
             </div>
         </div>
 
-        <div class="section3">
-            <div class="section">
-                <p className='aboutText'>{text1}</p>
-                <p className='aboutText'>{text2}</p>
+        <div class="section4">
+            <div class="storyNav">
+                <img/>
+                <p>{storyText}</p>
             </div>
-            <div class="socialCard">
-                <p>{img}</p>
-            </div>
+           
         </div> 
     </div>
    
@@ -30,10 +29,10 @@ const About= ({ mainText, subText, text1, text2, img, onClick }) => {
 //   color: 'steelblue',
 // }
 
-About.propTypes = {
+Story.propTypes = {
   text: PropTypes.string,
   mainText: PropTypes.string,
   
 }
 
-export default About
+export default Story
