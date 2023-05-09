@@ -30,15 +30,35 @@ body {
 .mainSection2{
   height: auto;
   margin: 0px 25px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .sectiond{
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 
 .cardContent{
   display: flex;
+  justify-content: left;
+  align-items: center;
+  padding:10px 15px;
+}
+
+.supText{
+  color: #199C16;
+  font-size: 10px;
+}
+
+.cardTitle{
+  font-weight: bold;
+  font-size: 15px;
+  padding-bottom:10px;
+}
+
+.cardText{
+  font-weight:300;
+  font-size:13px;
+  padding-bottom:10px;
 }
 
 .section1{
@@ -50,7 +70,7 @@ body {
 }
 
 .section3{
-  width:50%;
+  width:45%;
   display: flex; 
   justify-content: left; 
   align-items: center;
@@ -58,8 +78,8 @@ body {
 }
 
 .section4{
-  width:60%;
-  /* border:1px solid red; */
+  width:55%;
+  border:1px solid red;
 }
 
 
@@ -82,8 +102,19 @@ body {
 }
 
 
+.bigText{
+  font-size: 25px;
+  font-weight:bold;
+}
+
 .text{
-  font-weight: 300;
+  font-size: 18px;
+  font-weight:bold;
+}
+
+.smallText{
+  font-size: 15px;
+  font-weight:300;
 }
 
 .mainText{
@@ -97,18 +128,44 @@ body {
 
 }
 
+.btnSpecial{
+  background: #199C16;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 15px;
+  /* border-bottom-left-radius:5px ;*/
+   border-bottom-left-radius:3px ; 
+}
+
+.btnSocial{
+  background: #31363B;
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  cursor: pointer;
+  margin-right:10px;
+  font-size: 15px;
+  border-radius:3px ; 
+}
+
+
+
 .card{
   width:30%;
   height:80px;
-  border-radius:7px;
-  border:1px solid red;
+  border-radius:5px;
+  background-color: #31363B;
+  color:white;
+  font-weight: 300;
 }
 
 .card2{
   width:30%;
-  height:150px;
-  border-radius:7px;
-  border:1px solid red;
+  height:170px;
+  border-radius:5px;
+  background-color: #14171c;
 }
 
 
@@ -136,13 +193,12 @@ body {
 
 
 .btn {
-  display: inline-block;
-  background: #000;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
+  background-color:#000;
+  color: #13B90F;
+  border: 1px solid #fff;
+  padding: 6px 20px;
   cursor: pointer;
-  text-decoration: none;
+  border-radius: 5px;
   font-size: 15px;
   font-family: inherit;
 }
@@ -156,11 +212,6 @@ body {
   justify-content:end;
 }
 
-.bgBtn{
-  border-bottom-left-radius: 10px !important;
-  border-bottom-right-radius: 10px !important;
-  background-color: #199C16;
-}
 
 .footer {
   text-align: center;
@@ -169,7 +220,7 @@ body {
 .footerList{
   display:flex;
   justify-content: center;
-  padding-top:10px;
+  padding:10px 0px;
 }
 
 .footerItem{

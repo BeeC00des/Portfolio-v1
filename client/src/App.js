@@ -5,21 +5,20 @@ import './App.css';
 // import Footer from './components/Footer';
 import { BrowserRouter as Router } from 'react-router-dom'
 import Header from './components/Header';
-import Button from './components/Button';
+import Button from './components/specialBtn';
 import Footer from './components/Footer';
 import About from './components/About';
 import Skill from './components/skillset';
 import Project from './components/project';
 import Story from './components/story';
+import Social from './components/social'
 
 function App() {
   return (
     <Router>
       <div className='main'>
       <Button
-        color="green"
         text="Say Hello!"
-        className="bgBtn"
       />
       </div>
        
@@ -43,7 +42,7 @@ function App() {
 
       <Story mainText="Experiences"/>
 
-      <About  
+      <Social  
       mainText="Get In Touch"  
       subText= "I'm Avaliable for collaboration" />
 

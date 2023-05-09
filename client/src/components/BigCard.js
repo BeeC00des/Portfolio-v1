@@ -1,14 +1,16 @@
 import PropTypes from 'prop-types'
 import Button from "./Button"
 
-const Card = ({ text, year,title,link }) => {
+const Card = ({ text,year ,title,link }) => {
   return (
     <div className="card2">
       <div className="cardContent">
-        <span>{year}</span>
-        <p className='cardTitle'>{title}</p>
-        <p className='CardText'>{text}</p>
-        <Button />
+        <div>
+          <span class="supText">{year}</span>
+          <p className='cardTitle'>{title}</p>
+          <p className='cardText'>{text}</p>
+          <Button text="Demo"/>
+        </div>
       </div> 
   </div>
   )

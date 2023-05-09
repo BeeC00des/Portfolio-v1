@@ -9,7 +9,7 @@ const Header = ({ title, onAdd}) => {
   return (
     <header className='header'>
       <div className='section1'>
-        <h1 >{title}</h1>
+        <h1 className="text" >{title}</h1>
       </div>
       <div className='section2'>
         <Navbar navItem="Project" />
